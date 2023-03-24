@@ -25,7 +25,7 @@ public abstract class BasePage extends TestRunner {
 	}
 
 	public void waitUntilInvisible(String locator) {
-		wait = new WebDriverWait(driver, 2000);
+		wait = new WebDriverWait(driver, 1000);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(locator)));
 	}
 

@@ -32,9 +32,22 @@ public class OrderSummaryPage extends BasePage {
 		List<String> products = new ArrayList<>();
 
 		String productName = table.get(index).findElement(By.xpath("td")).getText();
+		String price = table.get(index).findElement(By.xpath("td[2]")).getText().replace("₹ ", "");
+		Double productPrice = Double.parseDouble(price);
 		String productQty = table.get(index).findElement(By.xpath("td[3]")).getText();
 
-		products = Arrays.asList(productName, productQty);
+		products = Arrays.asList(productName, productQty, Integer.toString(productPrice.intValue()));
 		return products;
+	}
+
+	public List<String> totals() {
+		List<String> orderTotals = new ArrayList<>();
+
+		for(WebElement entry: table) {
+			String total = entry.findElement(By.xpath("td[4]")).getText().replace("₹ ", "");
+			Double totalPrice = Double.parseDouble(total);
+			orderTotals.add(Integer.toString(totalPrice.intValue()));
+		}
+		return orderTotals;
 	}
 }
