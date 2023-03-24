@@ -6,18 +6,12 @@ import common.Person.Role;
 
 public class Constants {
 
+	// Base URL
 	private static final String host = "http://localhost";
 	private static final int port = 8080;
-
 	public static final String baseURL = host + ":" + port + "/medicare";
-	public static final String db_user = "root";
-	public static final String db_password = "root";
 
-	public static final String host_db = "//localhost";
-	public static final int db_port = 3306;
-	public static final String db_name = "medicare";
-	public static final String connection_string = "jdbc:mysql:" + host_db + ":" + db_port + "/" + db_name;
-
+	// Test data
 	public static Address user_address = new Address("Street 131N", "Main Ave", "Scranton", "18504", "Pennsylvania",
 			"United States");
 	public static Person user = new Person("Hannah", "Ford", "hannah.ford@domain.com", "8975937680", "ze±!_0&~a[].Edr",
@@ -38,14 +32,19 @@ public class Constants {
 	public static Product testProduct = new Product("Testofenac", "Testbrand", "A test medicine for testing purpose",
 			new BigDecimal("35.70"), 50, "medicine.png", testCategory);
 
-
-
 	public static class Endpoints {
 		// private static String home = "/home";
 		// private static String login = "/login";
 		// private static String membership = "/membership";
-
 	}
+
+	// DB constants
+	public static final String db_user = "root";
+	public static final String db_password = "root";
+	public static final String host_db = "//localhost";
+	public static final int db_port = 3306;
+	public static final String db_name = "medicare";
+	public static final String connection_string = "jdbc:mysql:" + host_db + ":" + db_port + "/" + db_name;
 
 	public static class DBTables {
 		public static String address = "Address";
@@ -59,7 +58,6 @@ public class Constants {
 	}
 
 	public static class DBConstraints {
-
 		public static String dropFKAddressUserIdConstraint = String.format("ALTER TABLE %s DROP FOREIGN KEY %s",
 				DBTables.address, "fk_address_user_id");
 
