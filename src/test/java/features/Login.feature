@@ -1,3 +1,4 @@
+@aut_Mykhailo_Shpilienko
 Feature: Login
   As a user,
   I want to login to web app using my credentials,

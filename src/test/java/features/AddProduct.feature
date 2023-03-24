@@ -1,4 +1,5 @@
-Feature: Login
+@aut_Mykhailo_Shpilienko
+Feature: Add product
   As an admin,
   I want to add new medicine in admin portal,
   So that medicine is stored in database.

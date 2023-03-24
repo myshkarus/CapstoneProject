@@ -1,3 +1,4 @@
+@aut_Mykhailo_Shpilienko
 Feature: Sign Up
   As a user,
   I want to submit my personal data,
@@ -7,7 +8,7 @@ Feature: Sign Up
     Given I have launched the application
     And I go to Sign up page
 
-  @sanity
+  @sanity 
   Scenario Outline: Successful registration on web app
     Given I have a "<Role>"
     When I enter my personal data
@@ -17,6 +18,7 @@ Feature: Sign Up
     And I enter my credentials on Login form
     And I click on Login button on Login form
     Then I should see my name in navigate menu
+    And I can find my personal data and address in database
 
     Examples: 
       | Role     |
