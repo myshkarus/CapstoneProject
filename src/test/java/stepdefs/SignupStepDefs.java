@@ -1,5 +1,8 @@
 package stepdefs;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 import org.testng.Assert;
 
 import common.Person;
@@ -98,6 +101,33 @@ public class SignupStepDefs extends TestRunner {
 			Assert.assertEquals(SignupPage.firstNameError.getText(), errorMessage);
 		} else {
 			Assert.assertEquals(SignupPage.lastNameError.getText(), errorMessage);
+		}
+	}
+
+	@Then("I can find my personal data and address in database")
+	public void i_can_find_my_personal_data_and_address_in_database() throws SQLException {
+		ResultSet rst;
+		String query = String.format(
+						"SELECT * FROM %s\n"
+				      + "INNER JOIN %s ON %s.user_id=%s.id\n"
+					  + "WHERE %s.email='%s'", common.Constants.DBTables.userDetail,
+				                               common.Constants.DBTables.address,
+				                               common.Constants.DBTables.address,
+				                               common.Constants.DBTables.userDetail,
+				                               common.Constants.DBTables.userDetail,
+				                               testUser.getEmail()
+				      );
+
+		rst = db.executeQuery(query);
+		Assert.assertTrue(rst != null);
+
+		while (rst.next()) {
+			Assert.assertEquals(rst.getString("first_name"), testUser.getFirstName());
+			Assert.assertEquals(rst.getString("last_name"), testUser.getLastName());
+			Assert.assertEquals(rst.getString("email"), testUser.getEmail());
+			Assert.assertEquals(rst.getString("contact_number"), testUser.getContactNumber());
+			Assert.assertEquals(rst.getString("country"), testUser.getAddress().getCountry());
+			Assert.assertEquals(rst.getString("postal_code"), testUser.getAddress().getPostalCode());
 		}
 	}
 }
