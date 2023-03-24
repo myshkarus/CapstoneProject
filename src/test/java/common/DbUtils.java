@@ -172,6 +172,12 @@ public class DbUtils {
 		return id;
 	}
 
+	public ResultSet executeQuery(String query) throws SQLException {
+		ResultSet rst = null;
+		rst = this.stm.executeQuery(query);
+		return rst;
+	}
+
 	public void cleanTestData(String email) throws SQLException {
 		try {
 			this.stm.execute(dropFKOrderItem);
