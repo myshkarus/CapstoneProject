@@ -31,7 +31,7 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# Chrome driver (disabled for Jenkins GitHub job)
+# Chrome driver (disabled for Jenkins GitHub jobs)
 # chromedriver
 
 # Eclipse Gradle plugin generated files
@@ -89,3 +89,8 @@ local.properties
 
 # JMeter
 **/apache-jmeter-5.5
+
+##############################
+## OS X
+##############################
+.DS_Store
