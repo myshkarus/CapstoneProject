@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import org.testng.Assert;
 
 import common.Person;
+import db.DbUtils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,8 +20,8 @@ public class SignupStepDefs extends TestRunner {
 	LoginPage loginPage;
 	NavigatePanel panel;
 	Person testUser;
-
 	String missedPart;
+	DbUtils db;
 
 	@Given("I go to Sign up page")
 	public void i_go_to_sign_up_page() {
@@ -105,8 +106,9 @@ public class SignupStepDefs extends TestRunner {
 	}
 
 	@Then("I can find my personal data and address in database")
-	public void i_can_find_my_personal_data_and_address_in_database() throws SQLException {
+	public void i_can_find_my_personal_data_and_address_in_database() throws SQLException, ClassNotFoundException {
 		ResultSet rst;
+		db = new DbUtils();
 		String query = String.format(
 						"SELECT * FROM %s\n"
 				      + "INNER JOIN %s ON %s.user_id=%s.id\n"

@@ -14,6 +14,7 @@ import org.testng.Assert;
 
 import common.Category;
 import common.Product;
+import db.DbUtils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -28,6 +29,7 @@ public class AddProductStepDefs extends TestRunner {
 	ProductMngtPage page;
 	Category category;
 	Product product;
+	DbUtils db;
 
 	@Given("I logged in as admin")
 	public void i_logged_in_as_admin() {
@@ -122,8 +124,9 @@ public class AddProductStepDefs extends TestRunner {
 	}
 
 	@Then("product should be stored in database")
-	public void product_should_be_stored_in_database() throws SQLException {
+	public void product_should_be_stored_in_database() throws SQLException, ClassNotFoundException {
 		ResultSet rst;
+		db = new DbUtils();
 
 		rst = db.readTable(common.Constants.DBTables.product, "*", "name", product.getName());
 		Assert.assertTrue(rst != null);
