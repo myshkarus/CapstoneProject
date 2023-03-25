@@ -32,11 +32,7 @@ public class Constants {
 	public static Product testProduct = new Product("Testofenac", "Testbrand", "A test medicine for testing purpose",
 			new BigDecimal("35.70"), 50, "medicine.png", testCategory);
 
-	public static class Endpoints {
-		// private static String home = "/home";
-		// private static String login = "/login";
-		// private static String membership = "/membership";
-	}
+	public static String cookie = "JSESSIONID";
 
 	// DB constants
 	public static final String db_user = "root";
