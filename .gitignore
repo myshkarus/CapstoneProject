@@ -31,8 +31,8 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# Chrome driver (disabled for Jenkins GitHub jobs)
-# chromedriver
+# Chrome driver (disable for Jenkins GitHub jobs)
+chromedriver
 
 # Eclipse Gradle plugin generated files
 # Eclipse Core
@@ -79,7 +79,7 @@ local.properties
 #.project
 
 # TestNG test-output folder
-**/test-output/**
+#**/test-output/**
 
 # Ignore screenshots
 #*.png
