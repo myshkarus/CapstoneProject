@@ -1,4 +1,4 @@
-package common;
+package db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -86,6 +86,7 @@ public class DbUtils {
 			result = this.stm
 					.executeQuery(String.format("SELECT %s FROM %s WHERE %s='%s'", val[0], table, val[1], val[2]));
 		}
+
 		return result;
 	}
 
