@@ -60,6 +60,7 @@ public class CartPage extends BasePage{
 			qtyInput.clear();
 			qtyInput.sendKeys(qty);
 
+			waitUntilInvisible("//div[@class='se-pre-con']");
 			productQty.findElement(By.xpath("td//following-sibling::button")).click();
 		}
 	}
