@@ -53,7 +53,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 		db = new DbUtils();
 		System.setProperty("webdriver.chrome.driver", "chromedriver");
 		ChromeOptions options = new ChromeOptions();
-		// options.addArguments("--headless");
+		options.addArguments("--headless");
 
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
