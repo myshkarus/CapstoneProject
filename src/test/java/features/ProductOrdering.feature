@@ -10,7 +10,7 @@ Feature: Product ordering
     And I logged in as user
     And I am on Catalog page
 
-  @e2e @sanity 
+  @e2e @regression
   Scenario: Product ordering
     Given I put products to the cart
       | Combiflame  |

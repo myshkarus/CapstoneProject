@@ -8,7 +8,7 @@ Feature: Sign Up
     Given I have launched the application
     And I go to Sign up page
 
-  @sanity 
+  @e2e @regression 
   Scenario Outline: Successful registration on web app
     Given I have a "<Role>"
     When I enter my personal data
@@ -25,7 +25,7 @@ Feature: Sign Up
       | user     |
       | supplier |
 
-  @sanity
+  @regression
   Scenario Outline: Failure to register with incomplete personal data
     Given I am a user
     When I missed to enter my "<FirstName>" or "<LastName>"

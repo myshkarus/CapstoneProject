@@ -8,7 +8,7 @@ Feature: Add product
     Given I have launched the application
     And I logged in as admin
 
-  @sanity 
+  @e2e @regression 
   Scenario: Adding new category
     Given I am on product management page
     When I click Add New Category button
@@ -16,7 +16,7 @@ Feature: Add product
     And I save new category
     Then I should see new category in Categories list on home page
 
-  @sanity @regression
+  @e2e @regression
   Scenario Outline: Adding new product
     Given I am on product management page
     And There is a product category "Test category" with description as "This is cucumber test product category"

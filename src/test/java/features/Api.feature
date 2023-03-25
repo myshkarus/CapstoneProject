@@ -7,14 +7,14 @@ Feature: Get products via API
   Background: 
     Given base URL is "http://localhost:8080/medicare"
 
-  @sanity
+  @e2e
   Scenario: Retrieve the most viewed products
     Given the API endpoint is "/json/data/mv/products"
     When I hit endpoint with GET request
     Then I should see response status code 200
     And The list of "name" of the most viewed products is the same as on Home page of web application
 
-  @sanity
+  @e2e
   Scenario: Retrieve the most purchased products
     Given the API endpoint is "/json/data/mp/products"
     When I hit endpoint with GET request
