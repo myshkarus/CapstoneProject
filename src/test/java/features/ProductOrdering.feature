@@ -10,7 +10,7 @@ Feature: Product ordering
     And I logged in as user
     And I am on Catalog page
 
-  @e2e @sanity @smoke
+  @e2e @sanity 
   Scenario: Product ordering
     Given I put products to the cart
       | Combiflame  |
