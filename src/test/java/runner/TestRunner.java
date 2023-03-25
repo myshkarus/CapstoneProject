@@ -35,8 +35,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 			db.cleanTestData(common.Constants.user.getEmail());
 			db.cleanTestData(common.Constants.supplier.getEmail());
 			System.out.println("TEST DATA CLEANUP COMPLETE");
+			System.out.println(StringUtils.repeat("=", 47) + "\n");
 		}
-		System.out.println(StringUtils.repeat("=", 47) + "\n");
+
 	}
 
 	@BeforeSuite(alwaysRun = true)
