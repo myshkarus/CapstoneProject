@@ -65,7 +65,7 @@ public class DbUtils {
 	}
 
 	public void openConnection() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		this.con = DriverManager.getConnection(common.Constants.connection_string, common.Constants.db_user,
 				common.Constants.db_password);
 		this.stm = con.createStatement();
