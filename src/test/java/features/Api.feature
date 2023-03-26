@@ -2,7 +2,7 @@
 Feature: Get products via API
   As a developer,
   I want to fetch products via API,
-  So that I do not have to manually search for the most viewed or most purchased products
+  So that I do not have to manually search for the most viewed or most purchased products.
 
   Background: 
     Given base URL is "http://localhost:8080/medicare"

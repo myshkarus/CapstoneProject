@@ -1,8 +1,8 @@
 @aut_Mykhailo_Shpilienko
 Feature: Add product
   As an admin,
-  I want to add new medicine in admin portal,
-  So that medicine is stored in database.
+  I want to add new product in admin portal,
+  So that products are stored in database.
 
   Background: 
     Given I have launched the application
