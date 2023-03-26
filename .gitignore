@@ -16,6 +16,14 @@
 *.tar.gz
 *.rar
 
+# Ignore html reports
+#*.html
+#!*/medicare.html
+
+# TestNG test-output folder
+#**test-output**
+#!**/test-output/testng-results.xml
+
 ##############################
 ## Maven
 ##############################
@@ -78,16 +86,8 @@ local.properties
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
 
-# TestNG test-output folder
-test-output/**
-!**/test-output/testng-results.xml
-
 # Ignore screenshots
 #*.png
-
-# Ignore html reports
-*.html
-!medicare.html
 
 # JMeter
 **/apache-jmeter-5.5
