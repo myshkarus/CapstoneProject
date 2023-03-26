@@ -29,7 +29,7 @@ public class SignupStepDefs extends TestRunner {
 		page = panel.gotoSignupPage(driver);
 	}
 
-	@Given("I have a {string}")
+	@Given("I have a role as {string}")
 	public void i_have_a(String role) {
 		testUser = new Person();
 		switch (role) {

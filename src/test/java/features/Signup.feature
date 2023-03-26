@@ -8,9 +8,9 @@ Feature: Sign Up
     Given I have launched the application
     And I go to Sign up page
 
-  @e2e @regression 
+  @e2e @regression
   Scenario Outline: Successful registration on web app
-    Given I have a "<Role>"
+    Given I have a role as "<Role>"
     When I enter my personal data
     And I enter my address
     And I submit my data
