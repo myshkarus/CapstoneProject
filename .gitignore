@@ -79,9 +79,9 @@ local.properties
 #.project
 
 # TestNG test-output folder
-!test-output/medicare-HtmlReport/medicare.html
-**/test-output/**
+test-output/
 !test-output/testng-results.xml
+!test-output/medicare??/*.html
 
 # Ignore screenshots
 #*.png
