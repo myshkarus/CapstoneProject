@@ -9,8 +9,8 @@
           <include name="setUpClass"/>
           <include name="setup"/>
           <include name="beforeSuiteSetup"/>
-          <include name="runScenario" invocation-numbers="10"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- runner.TestRunner -->

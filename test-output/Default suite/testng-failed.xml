@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepdefs.AddProductStepDefs">
+      <class name="stepdefs.DbStepDefs">
         <methods>
           <include name="afterSuiteSetup"/>
           <include name="setUpClass"/>
           <include name="setup"/>
           <include name="beforeSuiteSetup"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- stepdefs.AddProductStepDefs -->
+      </class> <!-- stepdefs.DbStepDefs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
