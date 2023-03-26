@@ -80,9 +80,9 @@ local.properties
 
 # TestNG test-output folder
 **/test-output/**
-!/test-output/testng-results.xml
-!**/test-output/medicare-HtmlReport/**
-!**/test-output/medicare-SparkReport/**
+
+!test-output/medicare??/**
+!test-output/testng-results.xml
 
 # Ignore screenshots
 #*.png
