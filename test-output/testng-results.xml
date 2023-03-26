@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Cucumber Suite" duration-ms="199828" started-at="2023-03-26T16:54:08 EEST" finished-at="2023-03-26T16:57:28 EEST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber Tests" duration-ms="199828" started-at="2023-03-26T16:54:08 EEST" finished-at="2023-03-26T16:57:28 EEST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="beforeSuiteSetup()[pri:0, instance:runner.TestRunner@51c668e3]" name="beforeSuiteSetup" is-config="true" duration-ms="5" started-at="2023-03-26T16:54:08 EEST" finished-at="2023-03-26T16:54:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@51c668e3]" name="setUpClass" is-config="true" duration-ms="1056" started-at="2023-03-26T16:54:08 EEST" finished-at="2023-03-26T16:54:09 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b5dc4bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="2604" started-at="2023-03-26T16:54:09 EEST" finished-at="2023-03-26T16:54:11 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="13070" started-at="2023-03-26T16:54:11 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:54:24 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="458" started-at="2023-03-26T16:54:24 EEST" finished-at="2023-03-26T16:54:25 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="925" started-at="2023-03-26T16:54:25 EEST" finished-at="2023-03-26T16:54:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="13409" started-at="2023-03-26T16:54:26 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:54:39 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="425" started-at="2023-03-26T16:54:39 EEST" finished-at="2023-03-26T16:54:40 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="913" started-at="2023-03-26T16:54:40 EEST" finished-at="2023-03-26T16:54:41 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="16710" started-at="2023-03-26T16:54:41 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:54:57 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="436" started-at="2023-03-26T16:54:57 EEST" finished-at="2023-03-26T16:54:58 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="981" started-at="2023-03-26T16:54:58 EEST" finished-at="2023-03-26T16:54:59 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="20199" started-at="2023-03-26T16:54:59 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:19 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="368" started-at="2023-03-26T16:55:19 EEST" finished-at="2023-03-26T16:55:19 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="982" started-at="2023-03-26T16:55:19 EEST" finished-at="2023-03-26T16:55:20 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="5613" started-at="2023-03-26T16:55:20 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:26 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve the most viewed products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get products via API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="353" started-at="2023-03-26T16:55:26 EEST" finished-at="2023-03-26T16:55:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="939" started-at="2023-03-26T16:55:26 EEST" finished-at="2023-03-26T16:55:27 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="1865" started-at="2023-03-26T16:55:27 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:29 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve the most purchased products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get products via API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="308" started-at="2023-03-26T16:55:29 EEST" finished-at="2023-03-26T16:55:29 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="830" started-at="2023-03-26T16:55:29 EEST" finished-at="2023-03-26T16:55:30 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="16665" started-at="2023-03-26T16:55:30 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:47 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["One-to-many relationship between Category and Products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Persistent storage in database"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="330" started-at="2023-03-26T16:55:47 EEST" finished-at="2023-03-26T16:55:47 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="891" started-at="2023-03-26T16:55:47 EEST" finished-at="2023-03-26T16:55:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="3951" started-at="2023-03-26T16:55:48 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:52 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="323" started-at="2023-03-26T16:55:52 EEST" finished-at="2023-03-26T16:55:52 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="861" started-at="2023-03-26T16:55:52 EEST" finished-at="2023-03-26T16:55:53 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="3888" started-at="2023-03-26T16:55:53 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:55:57 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Access to admin portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="286" started-at="2023-03-26T16:55:57 EEST" finished-at="2023-03-26T16:55:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="846" started-at="2023-03-26T16:55:57 EEST" finished-at="2023-03-26T16:55:58 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="4318" started-at="2023-03-26T16:55:58 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:56:03 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="313" started-at="2023-03-26T16:56:03 EEST" finished-at="2023-03-26T16:56:03 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="824" started-at="2023-03-26T16:56:03 EEST" finished-at="2023-03-26T16:56:04 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="4937" started-at="2023-03-26T16:56:04 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:56:09 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="307" started-at="2023-03-26T16:56:09 EEST" finished-at="2023-03-26T16:56:09 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="897" started-at="2023-03-26T16:56:09 EEST" finished-at="2023-03-26T16:56:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="35992" started-at="2023-03-26T16:56:10 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:56:46 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Product ordering"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product ordering"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="315" started-at="2023-03-26T16:56:46 EEST" finished-at="2023-03-26T16:56:46 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="994" started-at="2023-03-26T16:56:46 EEST" finished-at="2023-03-26T16:56:47 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="11992" started-at="2023-03-26T16:56:47 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:56:59 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration on web app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign Up"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="336" started-at="2023-03-26T16:56:59 EEST" finished-at="2023-03-26T16:56:59 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="883" started-at="2023-03-26T16:56:59 EEST" finished-at="2023-03-26T16:57:00 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="12244" started-at="2023-03-26T16:57:00 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:57:13 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration on web app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign Up"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="307" started-at="2023-03-26T16:57:13 EEST" finished-at="2023-03-26T16:57:13 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="845" started-at="2023-03-26T16:57:13 EEST" finished-at="2023-03-26T16:57:14 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="5144" started-at="2023-03-26T16:57:14 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:57:19 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure to register with incomplete personal data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign Up"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="323" started-at="2023-03-26T16:57:19 EEST" finished-at="2023-03-26T16:57:19 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.TestRunner@51c668e3]" name="setup" is-config="true" duration-ms="884" started-at="2023-03-26T16:57:19 EEST" finished-at="2023-03-26T16:57:20 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@51c668e3]" name="runScenario" duration-ms="5287" started-at="2023-03-26T16:57:20 EEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-26T16:57:25 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure to register with incomplete personal data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign Up"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.TestRunner@51c668e3]" name="TearDown" is-config="true" duration-ms="408" started-at="2023-03-26T16:57:25 EEST" finished-at="2023-03-26T16:57:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@51c668e3]" name="tearDownClass" is-config="true" duration-ms="1668" started-at="2023-03-26T16:57:26 EEST" finished-at="2023-03-26T16:57:28 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuiteSetup()[pri:0, instance:runner.TestRunner@51c668e3]" name="afterSuiteSetup" is-config="true" duration-ms="1" started-at="2023-03-26T16:57:28 EEST" finished-at="2023-03-26T16:57:28 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteSetup -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- TestNG Cucumber Suite -->
+</testng-results>
